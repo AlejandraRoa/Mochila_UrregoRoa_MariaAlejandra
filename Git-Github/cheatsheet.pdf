@@ -1,0 +1,16 @@
+Recordatorio de los comandos más utilizados:
+-Para crear carpetas/Directorios se utiliza el comando: mkdir nombreDeLaCarpeta, $ mkdir es una abrevación de make directory 
+-Para crear archivos  se utiliza el comando: $ touch nombreDelArchivo.txt
+-Para eliminar una carpeta se debe usar el comando: $ rmdir nombreDeLaCarpeta, si no tiene elementos. si la carpeta tiene elementos debe usarse el comando: rmdir -r nombreDeLaCarpeta
+-Para eliminar archivos se debe usar el comando: $ rm nombreDelArchivo o $rm ruta_del_archivo 
+-Para crear un repositorio local del proyecto en que se esta trabajando se puede hacer con el comando: $ git init 
+-Para añadir elementos a repositorio local se utiliza el comando $ git add nombre_del_elemento  para añadirlos todos se usa: git add .
+-Para agregar un commit de los cambios realizads al proyecto que estamos realizando se usa el comando: $ git commit -m "comentario o descripción de los cambios realizads"
+-Para sincronizar nuestro repositorio local con un repositorio remoto tenemos que ingresar los siguientes comandos:
+$ git config user.name “mi usuario” (escribimos nuestro nombre de usuario).
+$ git config user.email “miCorreo@email.com” (escribimos nuestra dirección de correo).
+-para establecer el repositorio remoto usamos el comando:$ git remote add origin "direccción o URL del repositorio remoto creado en GitHub"
+-Para subir archivos al repositorio remto utilizamos el comando: $ git push origin main.
+-Para revisar el seguimiento de los elementos del proyecto se usa el comando: $ git status.
+.Para descargar por primera vez  una copia exacta de los archivos del repositorio remoto al repositorio local se utiliza el comando:$ git clone "URL del repositrio remoto" el resto de las veces solo basta poner $ git clone
+-Para poder bajar los elementos desde GitHub a Git se usa el comando $ git pull origin master 
