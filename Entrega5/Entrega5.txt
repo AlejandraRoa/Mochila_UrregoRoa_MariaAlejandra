@@ -1,0 +1,9 @@
+¿Por qué un lenguaje de programación sólo puede utilizarse en algunos sistemas operativos y en otros no?
+Las diferencias en las bibliotecas, herramientas, entornos de ejecución, APIs y enfoques de compilación o interpretación entre los sistemas operativos pueden limitar la compatibilidad de un lenguaje de programación con ciertos sistemas operativos. Por lo tanto, es importante considerar la compatibilidad del lenguaje de programación al elegir el sistema operativo en el que se desea desarrollar y ejecutar el programa
+
+
+¿Qué tipo de máquina virtual es virtual Box?
+En virtual Box los usuarios pueden emular diferentes sistemas operativos en su equipo físico sin necesidad de particionar el disco duro o reiniciar el sistema. VirtualBox es una máquina virtual de hipervisor de tipo 2 que permite a los usuarios crear y ejecutar máquinas virtuales en su equipo físico, lo que les brinda flexibilidad y versatilidad para trabajar con diferentes sistemas operativos sin afectar su entorno de host. Los sistemas operativos invitados son Windows, Linux, macOS y otros. También ofrece una serie de características adicionales, como la capacidad de compartir archivos y carpetas entre el sistema host y las máquinas virtuales, la integración del portapapeles y la capacidad de capturar y revertir instantáneas de las máquinas virtuales.
+
+Si tengo más de una máquina virtual instalada, y una se rompe, ¿esto afecta a las demás? ¿por qué?
+ aunque una máquina virtual puede experimentar un fallo o romperse, esto generalmente no afectará a las demás máquinas virtuales debido al aislamiento proporcionado por el hipervisor y al uso de archivos de imagen virtual independientes. Sin embargo, el rendimiento de las máquinas virtuales puede verse afectado si hay escasez de recursos en el sistema host
